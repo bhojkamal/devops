@@ -101,6 +101,8 @@ This setup uses Docker Compose v2 (compose.yml).
 
 Your `compose.yml` file uses external networks (`traefik_web`, `postgres`, `redis`, `mail`) for integration with other services.  You'll need to ensure these networks exist if you haven't already created them.  The example provided assumes you're using Traefik for routing and potentially other services like PostgreSQL, Redis, and a mail server.
 
+copy compose.yml and dock to your root folder. You are ready to go
+
 The `DOCKER_NAME`, `DOCKER_PUID`, `DOCKER_PGID`, `DOCKER_USER`, `BASE_DOMAIN`, `ADMIN_DOMAIN`, and `API_DOMAIN` environment variables are used for configuration.  You'll likely want to define these in a `.env` file or export them before running `docker compose`.
 
 The `volumes` section mounts your project directory into the containers for development.  The `:cached` option is used for performance.
