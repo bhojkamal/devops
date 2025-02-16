@@ -1,6 +1,6 @@
 # Laravel Development Environment with Docker
 
-This repository provides a boilerplate Docker setup for local development of PHP and Laravel applications. It includes containers for PHP, Composer, Node.js, and a web server (Nginx), allowing you to quickly spin up a consistent development environment.  For database and other services, you can leverage setups like the one provided here: [https://github.com/puncoz-official/dock](https://github.com/puncoz-official/dock)
+This repository provides a boilerplate Docker setup for local development of PHP and Laravel applications. This parte is taken from: [https://github.com/puncoz-official/laravel-boilerplate](https://github.com/puncoz-official/laravel-boilerplate) It includes containers for PHP, Composer, Node.js, and a web server (Nginx), allowing you to quickly spin up a consistent development environment.  For database and other services, you can leverage setups like the one provided here: [https://github.com/puncoz-official/dock](https://github.com/puncoz-official/dock)
 
 This setup uses Docker Compose v2 (compose.yml).
 
